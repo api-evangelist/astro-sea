@@ -1,8 +1,29 @@
 aid: astro-sea
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/astro-sea.png
 name: Astro Sea
-description: Astro Sea is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Astro (PT Astro Technologies Indonesia), operating at astronauts.id, is an
+  Indonesian quick-commerce platform that delivers groceries and everyday
+  essentials in as little as 15 minutes. Its consumer mobile apps (iOS and
+  Android) offer more than 3,000 curated products spanning fresh produce,
+  frozen goods, groceries, beauty, household items, and electronics, with 24/7
+  service across the Greater Jakarta (JADETABEK) region. Astro is backed by
+  Lightspeed Venture Partners and was surfaced through that portfolio into the
+  API Evangelist network. Astro is a business-to-consumer application company;
+  it publishes a consumer app, a corporate site, and an RFC 9116 security
+  contact, but does not currently expose a public developer API, OpenAPI
+  definition, SDKs, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/astro-sea/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Quick Commerce
+- E-commerce
+- Grocery Delivery
+- Retail
+- Consumer
+- Indonesia
+- Mobile App
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/astro-sea-vulnerability-disclosure.yml
+- type: Security
+  url: well-known/astro-sea-security.txt
+- type: DomainSecurity
+  url: security/astro-sea-domain-security.yml
+- type: Website
+  url: https://www.astronauts.id/
+- type: About
+  url: https://www.astronauts.id/sites/tentang-astro
+- type: PrivacyPolicy
+  url: https://www.astronauts.id/sites/privacy-policy
+- type: TermsOfService
+  url: https://www.astronauts.id/sites/syarat-ketentuan
+- type: Support
+  url: https://www.astronauts.id/sites/faq
+- type: Blog
+  url: https://www.astronauts.id/blog
+- type: SecurityTxt
+  url: well-known/astro-sea-security.txt
+- type: WellKnown
+  url: well-known/astro-sea-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
